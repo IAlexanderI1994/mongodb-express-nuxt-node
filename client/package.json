@@ -1,0 +1,20 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "frontend",
+  "main": "main.js",
+  "scripts": {
+    "dev": "PORT=8082 nuxt"
+  },
+  "author": "Alex Kiryushin",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "nuxt": "^2.8.1"
+  },
+  "devDependencies": {
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "raw-loader": "^3.0.0"
+  }
+}

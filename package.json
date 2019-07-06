@@ -4,6 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "client-install": "npm install --prefix client",
+    "server-install": "npm install",
     "server": "nodemon --inspect --watch config --watch server server/main.js",
     "client": "npm run --prefix client dev",
     "dev": "concurrently  \"npm run client\" \"npm run server\""
