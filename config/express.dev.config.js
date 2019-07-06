@@ -3,7 +3,7 @@ const webpack           = require('webpack')
 const HTMLWebpackPlugin = require('html-webpack-plugin')
 module.exports          = {
   entry: {
-    main: './client/main.js'
+    main: './main.js'
   },
   mode: 'development',
   output: {

@@ -1,8 +1,7 @@
 import path from 'path'
 import webpack from 'webpack'
-import config from '../config/webpack.dev.config'
+import config from '../config/express.dev.config'
 import keys from '../config/keys'
-
 import express from 'express'
 import fallback from 'express-history-api-fallback'
 import mongoose from 'mongoose'
@@ -48,8 +47,8 @@ server.use(staticMiddleware)
 
 server.use(fallback('index.html', { root: path.resolve(__dirname, 'dist') }))
 
-
 server.listen(8080, () => {
 
   console.log('Listening 8080... ')
+
 })
