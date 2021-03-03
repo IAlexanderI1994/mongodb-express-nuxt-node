@@ -13,7 +13,7 @@
     "nuxt": "^2.8.1"
   },
   "devDependencies": {
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "pug-plain-loader": "^1.0.0",
     "raw-loader": "^3.0.0"
   }
